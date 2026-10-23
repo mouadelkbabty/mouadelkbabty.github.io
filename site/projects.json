@@ -1,0 +1,253 @@
+{
+  "kiki": {
+    "title": "kiki",
+    "tagline": "Des messages du téléphone, en bulle sur la télé",
+    "about": "J'écris sur mon téléphone, où que je sois, et une bulle apparaît sur la télé Android, par-dessus Netflix ou n'importe quelle app. Textes, stickers photo, sondages à la télécommande et emojis géants. Tout est chiffré de bout en bout (AES-256-GCM) : le serveur relais ne voit que des données illisibles.",
+    "tech": ["Kotlin", "Android TV", "WebCrypto", "ntfy", "GitHub Actions", "PWA"],
+    "category": "mobile",
+    "site": "https://mouadelkbabty.github.io/kiki/",
+    "featured": true
+  },
+  "cockpit": {
+    "title": "Cockpit",
+    "tagline": "Épargne, candidatures et sport au même endroit",
+    "about": "Un tableau de bord personnel installable sur téléphone : prévision d'épargne et budget, suivi des candidatures avec relances, séances de sport avec charges et progression. Les données restent dans le navigateur, avec une synchronisation optionnelle.",
+    "tech": ["Vue 3", "Vite", "Firebase", "Firestore", "PWA", "GitHub Pages"],
+    "category": "web",
+    "site": "https://mouadelkbabty.github.io/cockpit/",
+    "featured": true
+  },
+  "Riad": {
+    "title": "Riad Lee",
+    "tagline": "Réservation en ligne pour un riad marocain",
+    "about": "Une application complète pour un riad : galerie photo, réservation en ligne avec confirmation par e-mail, espace client, tableau de bord administrateur et un chatbot qui renseigne sur les chambres.",
+    "tech": ["Java 21", "Spring Boot 3", "Spring Security", "JWT", "PostgreSQL", "Flyway", "Angular 17", "Tailwind CSS", "Docker", "Nginx"],
+    "category": "java",
+    "featured": true
+  },
+  "tourmoroccowithmoh": {
+    "title": "Tour Morocco with Moh",
+    "tagline": "Le site d'un guide privé au Maroc",
+    "about": "Un site vitrine multilingue (anglais, français, espagnol) pour un guide touristique : circuits, pages par ville (Marrakech, Fès, Chefchaouen, Merzouga…), blog de conseils de voyage, FAQ, et un référencement soigné.",
+    "tech": ["HTML", "Tailwind CSS", "JavaScript", "SEO", "Vercel"],
+    "category": "web",
+    "featured": true
+  },
+  "website-Tour": {
+    "title": "Morocco Tours",
+    "tagline": "Le même site de circuits, refait avec Next.js",
+    "about": "Une version moderne du site de circuits au Maroc, construite avec l'aide de l'IA : pages destinations générées, formulaire de contact, bouton WhatsApp, données structurées et plan du site.",
+    "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "category": "web"
+  },
+  "gift-whisper": {
+    "title": "Gift Whisper",
+    "tagline": "Cinq idées de cadeau, ultra précises, par l'IA",
+    "about": "On décrit la personne, et l'app propose cinq idées de cadeaux très ciblées grâce à Llama 3.3. La clé d'API reste secrète côté serveur, derrière une fonction serverless.",
+    "tech": ["JavaScript", "Node.js", "Express", "Groq · Llama 3.3", "Vercel Functions"],
+    "category": "data"
+  },
+  "mon-portfolio": {
+    "title": "Portfolio néon",
+    "tagline": "Un portfolio qui se visite comme un jeu",
+    "about": "Mon ancien portfolio au style cyberpunk : on se déplace avec un avatar dans un monde en canvas (WASD / flèches), avec effets néon, verre dépoli et mini-jeux intégrés.",
+    "tech": ["HTML", "CSS", "JavaScript", "Canvas"],
+    "category": "web"
+  },
+  "finance": {
+    "title": "Floss & Job",
+    "tagline": "Point bourse du jour et offres d'emploi ciblées",
+    "about": "Une page perso en deux rubriques : le point de marché et l'ordre du mois calculé pour un PEA, et les meilleures offres Java d'une ville avec contact recruteur, message LinkedIn et CV adapté à chaque offre.",
+    "tech": ["HTML", "JavaScript", "Python", "Claude"],
+    "category": "data"
+  },
+  "ios-gym-tracker": {
+    "title": "GymTracker",
+    "tagline": "Suivi de musculation sur iPhone, sans serveur",
+    "about": "Une app iPhone minimaliste pour noter ses séances (séries, répétitions, charges), suivre sa progression et planifier ses splits Push / Pull / Legs, avec la séance du jour suggérée automatiquement.",
+    "tech": ["Swift", "SwiftUI", "Codable", "XcodeGen", "GitHub Actions"],
+    "category": "mobile"
+  },
+  "shadow-cloneJutsu-naruto": {
+    "title": "Shadow Clone Jutsu",
+    "tagline": "Le multiclonage de Naruto, devant la webcam",
+    "about": "On fait le signe de Naruto devant la webcam et des clones apparaissent à l'écran. La détection des mains se fait en direct dans le navigateur.",
+    "tech": ["JavaScript", "MediaPipe Hands", "Canvas", "Webcam"],
+    "category": "jeux"
+  },
+  "analyse-PDF-technique-UML-chatbot": {
+    "title": "Momo AI · analyse de PDF",
+    "tagline": "Comparer et interroger des documents techniques",
+    "about": "Une app qui lit plusieurs PDF techniques, en extrait les notions clés, les compare (graphes, nuages de mots, statistiques) et permet de leur poser des questions grâce à Mistral.",
+    "tech": ["Python", "Streamlit", "spaCy", "pdfplumber", "Plotly", "NetworkX", "Mistral AI"],
+    "category": "data"
+  },
+  "Planification-avec-Contraintes-nerg-tiques": {
+    "title": "Planification sous contrainte d'énergie",
+    "tagline": "Ordonnancer une usine en consommant le moins possible",
+    "about": "Modélise un atelier où chaque opération peut tourner sur plusieurs machines, qu'on peut allumer ou éteindre. Les algorithmes cherchent un planning qui équilibre durée totale et énergie consommée, testés sur une centaine d'instances.",
+    "tech": ["Python", "Recherche opérationnelle", "Heuristiques", "Matplotlib", "unittest"],
+    "category": "data"
+  },
+  "Recherche-Op-Data-abalytics": {
+    "title": "Ordonnancement · data",
+    "tagline": "Le même problème d'usine, côté analyse",
+    "about": "Une seconde version du TP d'ordonnancement de tâches sous contrainte énergétique, avec export des plannings en CSV et visualisation des résultats.",
+    "tech": ["Python", "Matplotlib", "CSV"],
+    "category": "data"
+  },
+  "HDI-analytics": {
+    "title": "Analyse de l'IDH",
+    "tagline": "Ce qui fait varier l'indice de développement humain",
+    "about": "Une étude statistique sur les pays du monde : lien entre l'IDH et l'espérance de vie, le revenu par habitant ou la région, avec visualisations et tests statistiques.",
+    "tech": ["R", "R Markdown", "Statistiques"],
+    "category": "data"
+  },
+  "tomcat-and-nats-Communication": {
+    "title": "NATS · date et heure",
+    "tagline": "Un petit service de messagerie temps réel",
+    "about": "Un script qui écoute un sujet NATS et répond à la demande avec la date et l'heure en JSON, pour faire dialoguer un serveur Tomcat et d'autres services.",
+    "tech": ["Python", "NATS", "asyncio", "JSON"],
+    "category": "systeme"
+  },
+  "Google-Authentication-oAuth2.0-with-Spring-Security": {
+    "title": "Partage de recettes",
+    "tagline": "Recettes, commentaires et connexion Google",
+    "about": "Une plateforme où l'on publie ses recettes, explore celles des autres, les commente et les note. Connexion avec son compte Google grâce à OAuth2.",
+    "tech": ["Java 17", "Spring Boot", "Spring Security", "OAuth2 Google", "Spring Data JPA", "Thymeleaf", "H2"],
+    "category": "java"
+  },
+  "FestiCar": {
+    "title": "FestiCar",
+    "tagline": "Covoiturage vers les festivals",
+    "about": "Une API REST pour réserver un trajet en covoiturage vers un festival : festivals, communes, arrêts, packs et panier, envoi d'e-mails et génération de billets PDF. Projet d'équipe en Master MIAGE.",
+    "tech": ["Java", "Spring Boot", "JPA", "Hibernate", "Spring Security", "JWT", "Oracle", "Swagger", "iText"],
+    "category": "java"
+  },
+  "Miahoot-Spring": {
+    "title": "Miahoot · API",
+    "tagline": "Un Kahoot maison, côté serveur",
+    "about": "Le back-end d'un jeu de quiz en direct façon Kahoot : enseignants, quiz, questions, réponses et participants, exposés en API REST. Projet d'équipe en Licence MIAGE.",
+    "tech": ["Java 11", "Spring Boot", "PostgreSQL", "Docker Compose", "MapStruct", "Swagger"],
+    "category": "java"
+  },
+  "Miahoot-Angular-Firebase": {
+    "title": "Miahoot · app",
+    "tagline": "Le Kahoot maison, côté joueurs",
+    "about": "L'interface du quiz en direct : connexion, création des quiz par l'enseignant et participation des joueurs en temps réel.",
+    "tech": ["Angular 15", "TypeScript", "Firebase", "SCSS"],
+    "category": "web"
+  },
+  "Author-application-SpringBoot": {
+    "title": "API de bibliothèque",
+    "tagline": "Auteurs, livres et emprunts en REST",
+    "about": "Une API qui gère une bibliothèque : création, recherche, modification et suppression d'auteurs et de livres, testée avec Postman. TP de Licence MIAGE.",
+    "tech": ["Java 17", "Spring Boot", "JPA", "Maven", "Docker", "Postman"],
+    "category": "java"
+  },
+  "GContacts-WS-Client-Soap": {
+    "title": "GContacts",
+    "tagline": "Gestion de contacts par service web SOAP",
+    "about": "Un service web SOAP de gestion de contacts relié à une base MySQL, et son client web en servlets et JSP.",
+    "tech": ["Java", "JAX-WS", "SOAP", "JDBC", "MySQL", "JSP", "Servlets"],
+    "category": "java"
+  },
+  "Geometric-Shapes-Editor": {
+    "title": "Éditeur de formes",
+    "tagline": "Dessiner, déplacer, annuler, exporter",
+    "about": "Une application de dessin où l'on crée, déplace et supprime des formes géométriques, avec annuler / rétablir (Ctrl+Z / Ctrl+Y) et export en JSON ou XML. Construite autour des patrons Observer, Visitor et Command.",
+    "tech": ["Java", "Swing", "Maven", "Design patterns", "JUnit", "JaCoCo"],
+    "category": "java"
+  },
+  "Light-UP-akari-": {
+    "title": "Light Up (Akari)",
+    "tagline": "Résoudre n'importe quelle grille avec la logique",
+    "about": "Les règles du jeu Akari sont traduites en formule logique, puis résolues par un solveur SAT écrit nous-mêmes avec l'algorithme DPLL. Une interface permet de jouer et de voir la solution.",
+    "tech": ["Java", "JavaFX", "SAT", "DPLL", "Logique"],
+    "category": "jeux"
+  },
+  "Tux-Game": {
+    "title": "Tux",
+    "tagline": "Un pingouin qui ramasse les lettres d'un mot",
+    "about": "Un jeu où le pingouin Tux doit récupérer dans l'ordre les lettres d'un mot en moins de 30 secondes. Les mots, profils et parties sont stockés en XML.",
+    "tech": ["Java", "XML", "XSLT", "DOM", "SAX"],
+    "category": "jeux"
+  },
+  "Snake-Game": {
+    "title": "Snake",
+    "tagline": "Le jeu de mon enfance, recodé",
+    "about": "Le classique Snake : le serpent grandit à chaque pomme, et la partie s'arrête au premier mur ou à la première morsure.",
+    "tech": ["Java", "Swing"],
+    "category": "jeux"
+  },
+  "tiktaktoe-Java": {
+    "title": "Tic-tac-toe",
+    "tagline": "Le morpion, à deux",
+    "about": "Un morpion en Java avec interface graphique, pour deux joueurs.",
+    "tech": ["Java", "Swing"],
+    "category": "jeux"
+  },
+  "Dictionary-Java": {
+    "title": "Moteur de recherche",
+    "tagline": "Indexer des documents et répondre à des requêtes",
+    "about": "Un mini moteur de recherche : indexation d'un corpus, dictionnaires par hachage, synonymes et troncature des mots, puis classement des documents les plus pertinents pour une requête.",
+    "tech": ["Java", "Indexation", "Tables de hachage"],
+    "category": "java"
+  },
+  "Client-Serveur-application": {
+    "title": "Client / serveur de livres",
+    "tagline": "Interroger une bibliothèque par le réseau",
+    "about": "Un client et un serveur qui communiquent en TCP/IP : le client demande un livre par sa référence, le serveur renvoie titre, auteur, genre et taille, et la connexion reste ouverte pendant toute la requête.",
+    "tech": ["C", "Sockets TCP/IP", "Makefile"],
+    "category": "systeme"
+  },
+  "Health-Traveler": {
+    "title": "Health Traveler",
+    "tagline": "Un cabinet infirmier modélisé en XML",
+    "about": "Une application web pour un cabinet infirmier : patients, interventions et factures sont décrits en XML, validés par des schémas et transformés en pages HTML par XSLT.",
+    "tech": ["XML", "XSD", "XSLT", "JavaScript", "HTML", "CSS"],
+    "category": "web"
+  },
+  "Todolist-Angular": {
+    "title": "Todo list",
+    "tagline": "Une liste de tâches en Angular",
+    "about": "Une liste de tâches avec ajout, modification, suppression et filtres, réalisée en TP de Licence MIAGE.",
+    "tech": ["Angular 15", "TypeScript", "SCSS"],
+    "category": "web"
+  },
+  "Docker-Generator": {
+    "title": "Docker Generator",
+    "tagline": "Une GitHub Action qui fabrique un flux de podcast",
+    "about": "Une action GitHub qui tourne dans un conteneur Docker : elle lit un fichier YAML décrivant les épisodes et génère le flux RSS du podcast, publié ensuite sur GitHub Pages.",
+    "tech": ["Python", "Docker", "GitHub Actions", "YAML", "RSS"],
+    "category": "systeme"
+  },
+  "Podcast-Generator": {
+    "title": "Podcast Generator",
+    "tagline": "Un podcast publié automatiquement",
+    "about": "Le podcast « The Future in Tech » mis en ligne avec l'action Docker Generator : chaque modification du YAML régénère le flux RSS.",
+    "tech": ["Python", "GitHub Actions", "YAML", "RSS"],
+    "category": "systeme"
+  },
+  "ecoconception-realworld-miage": {
+    "title": "Éco-conception (à l'envers)",
+    "tagline": "Rendre une app la moins sobre possible, pour apprendre",
+    "about": "TP de Master MIAGE en binôme : partir d'une application Angular et prendre toutes les bonnes pratiques d'éco-conception à contre-pied, mesures Lighthouse à l'appui.",
+    "tech": ["Angular", "TypeScript", "Lighthouse CI"],
+    "category": "web"
+  },
+  "measuring-energy-alumet": {
+    "title": "Mesurer l'énergie",
+    "tagline": "Combien consomme un programme ?",
+    "about": "Travaux pratiques de Master sur la mesure de la consommation électrique des traitements informatiques avec l'outil ALUMET, et analyse des résultats.",
+    "tech": ["ALUMET", "Python", "Linux"],
+    "category": "systeme"
+  },
+  "Code-stats": {
+    "title": "Code stats (Tokei)",
+    "tagline": "Compter les lignes de code, vite",
+    "about": "Copie de Tokei, un outil en ligne de commande qui compte les lignes de code, de commentaires et vides d'un projet, par langage.",
+    "tech": ["Rust", "CLI"],
+    "category": "systeme"
+  }
+}
