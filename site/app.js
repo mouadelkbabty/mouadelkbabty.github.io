@@ -82,7 +82,8 @@ const I18N = {
 const SKILLS = [
   { id: "java", name: "Java", icon: "java", main: true, tech: /^java(\s|$)/i, lang: /^Java$/ },
   { id: "python", name: "Python", icon: "python", main: true, tech: /^python/i, lang: /^Python$/ },
-  { id: "csharp", name: "C#", icon: "csharp", main: true, tech: /^c#/i, lang: /^C#$/ },
+  // C# projects are not public on GitHub: the count is given by hand
+  { id: "csharp", name: "C#", icon: "csharp", main: true, tech: /^c#/i, lang: /^C#$/, count: 3 },
   { id: "angular", name: "Angular", icon: "angular", main: true, tech: /^angular/i },
   { id: "vue", name: "Vue.js", icon: "vue", main: true, tech: /^vue/i, lang: /^Vue$/ },
   { id: "spring", name: "Spring Boot", icon: "spring", tech: /^spring/i },
@@ -209,7 +210,8 @@ function usesSkill(p, skill) {
 const skillCount = (skill) => projects.filter((p) => usesSkill(p, skill)).length;
 
 function skillTile(skill) {
-  const count = skillCount(skill);
+  const repos = skillCount(skill);
+  const count = skill.count ?? repos;
   const big = skill.main;
   const content = [
     el("img", { class: "skill-icon", src: `icons/${skill.icon}.svg`, alt: "", width: big ? 44 : 22, height: big ? 44 : 22 }),
@@ -217,8 +219,8 @@ function skillTile(skill) {
     count > 0 && el("span", { class: "skill-count" }, big ? t.projects(count) : String(count)),
   ];
   const cls = big ? "skill big" : "skill";
-  // a skill with projects filters the list below; one without is just shown
-  return count > 0
+  // a skill with public projects filters the list below; one without is just shown
+  return repos > 0
     ? el("button", { class: cls, type: "button", "aria-pressed": String(skillFilter === skill.id), onclick: () => setSkill(skill.id) }, content)
     : el("div", { class: `${cls} static` }, content);
 }
