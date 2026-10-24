@@ -1,0 +1,156 @@
+{
+  "kiki": {
+    "tagline": "Messages from my phone, as a bubble on the TV",
+    "about": "I type on my phone, wherever I am, and a bubble pops up on the Android TV, on top of Netflix or any other app. Texts, photo stickers, polls answered with the remote and giant emojis. Everything is end-to-end encrypted (AES-256-GCM): the relay server only ever sees unreadable data."
+  },
+  "cockpit": {
+    "tagline": "Savings, job applications and workouts in one place",
+    "about": "A personal dashboard you can install on your phone: savings forecast and budget, job applications with follow-up reminders, workouts with weights and progress. Data stays in the browser, with optional sync."
+  },
+  "Riad": {
+    "tagline": "Online booking for a Moroccan riad",
+    "about": "A full application for a riad guesthouse: photo gallery, online booking with e-mail confirmation, customer area, admin dashboard and a chatbot that answers questions about the rooms."
+  },
+  "tourmoroccowithmoh": {
+    "tagline": "The website of a private tour guide in Morocco",
+    "about": "A multilingual showcase site (English, French, Spanish) for a tour guide: tours, one page per city (Marrakech, Fes, Chefchaouen, Merzouga…), a travel-tips blog, FAQ and careful SEO."
+  },
+  "website-Tour": {
+    "tagline": "The same tour site, rebuilt with Next.js",
+    "about": "A modern version of the Morocco tours site, built with the help of AI: generated destination pages, contact form, WhatsApp button, structured data and sitemap."
+  },
+  "gift-whisper": {
+    "tagline": "Five very specific gift ideas, by AI",
+    "about": "Describe the person and the app suggests five highly targeted gift ideas using Llama 3.3. The API key stays secret on the server, behind a serverless function."
+  },
+  "mon-portfolio": {
+    "title": "Neon portfolio",
+    "tagline": "A portfolio you explore like a game",
+    "about": "My previous cyberpunk-style portfolio: you walk around a canvas world with an avatar (WASD / arrow keys), with neon effects, frosted glass and built-in mini-games."
+  },
+  "finance": {
+    "tagline": "Daily market brief and targeted job offers",
+    "about": "A personal page with two sections: the market brief and the monthly order computed for a French PEA account, and the best Java job offers in a city with a recruiter contact, a LinkedIn message and a tailored CV for each offer."
+  },
+  "ios-gym-tracker": {
+    "tagline": "Workout tracking on iPhone, no server",
+    "about": "A minimal iPhone app to log workouts (sets, reps, weights), track progress and plan Push / Pull / Legs splits, with today's session suggested automatically."
+  },
+  "shadow-cloneJutsu-naruto": {
+    "tagline": "Naruto's shadow clone technique, in front of the webcam",
+    "about": "Make Naruto's hand sign in front of the webcam and clones appear on screen. Hand tracking runs live in the browser."
+  },
+  "analyse-PDF-technique-UML-chatbot": {
+    "title": "Momo AI · PDF analysis",
+    "tagline": "Compare and question technical documents",
+    "about": "An app that reads several technical PDFs, extracts the key concepts, compares them (graphs, word clouds, statistics) and lets you ask them questions with Mistral."
+  },
+  "Planification-avec-Contraintes-nerg-tiques": {
+    "title": "Energy-aware scheduling",
+    "tagline": "Scheduling a factory while using as little energy as possible",
+    "about": "Models a workshop where each operation can run on several machines that can be switched on or off. The algorithms look for a schedule that balances total duration and energy use, tested on about a hundred instances."
+  },
+  "Recherche-Op-Data-abalytics": {
+    "title": "Scheduling · data",
+    "tagline": "The same factory problem, analysis side",
+    "about": "A second version of the energy-constrained job scheduling lab, exporting schedules to CSV and plotting the results."
+  },
+  "HDI-analytics": {
+    "title": "HDI analysis",
+    "tagline": "What drives the Human Development Index",
+    "about": "A statistical study of the world's countries: how the HDI relates to life expectancy, income per person or region, with charts and statistical tests."
+  },
+  "tomcat-and-nats-Communication": {
+    "title": "NATS · date and time",
+    "tagline": "A small real-time messaging service",
+    "about": "A script that listens on a NATS subject and replies on request with the date and time as JSON, so a Tomcat server can talk to other services."
+  },
+  "Google-Authentication-oAuth2.0-with-Spring-Security": {
+    "title": "Recipe sharing",
+    "tagline": "Recipes, comments and Google sign-in",
+    "about": "A platform to publish your recipes, explore other people's, comment on them and rate them. Sign in with your Google account via OAuth2."
+  },
+  "FestiCar": {
+    "tagline": "Carpooling to music festivals",
+    "about": "A REST API to book a carpool ride to a festival: festivals, towns, stops, packs and cart, e-mail notifications and PDF tickets. Team project during my MIAGE master's degree."
+  },
+  "Miahoot-Spring": {
+    "tagline": "A home-made Kahoot, server side",
+    "about": "The back end of a live quiz game in the style of Kahoot: teachers, quizzes, questions, answers and participants, exposed as a REST API. Team project during my MIAGE bachelor's degree."
+  },
+  "Miahoot-Angular-Firebase": {
+    "tagline": "The home-made Kahoot, player side",
+    "about": "The interface of the live quiz: sign-in, quiz creation by the teacher and real-time participation for players."
+  },
+  "Author-application-SpringBoot": {
+    "title": "Library API",
+    "tagline": "Authors, books and loans over REST",
+    "about": "An API that manages a library: create, search, update and delete authors and books, tested with Postman. MIAGE bachelor's lab."
+  },
+  "GContacts-WS-Client-Soap": {
+    "tagline": "Contact management over a SOAP web service",
+    "about": "A SOAP web service for managing contacts backed by a MySQL database, and its web client built with servlets and JSP."
+  },
+  "Geometric-Shapes-Editor": {
+    "title": "Shapes editor",
+    "tagline": "Draw, move, undo, export",
+    "about": "A drawing app to create, move and delete geometric shapes, with undo / redo (Ctrl+Z / Ctrl+Y) and JSON or XML export. Built around the Observer, Visitor and Command patterns."
+  },
+  "Light-UP-akari-": {
+    "tagline": "Solving any grid with logic",
+    "about": "The rules of the Akari puzzle are turned into a logical formula, then solved by a SAT solver we wrote ourselves with the DPLL algorithm. An interface lets you play and see the solution."
+  },
+  "Tux-Game": {
+    "tagline": "A penguin collecting the letters of a word",
+    "about": "A game where Tux the penguin must collect the letters of a word in order in under 30 seconds. Words, profiles and games are stored as XML."
+  },
+  "Snake-Game": {
+    "tagline": "The game from my childhood, rebuilt",
+    "about": "Classic Snake: the snake grows with every apple, and the game ends at the first wall or the first bite."
+  },
+  "tiktaktoe-Java": {
+    "tagline": "Tic-tac-toe for two",
+    "about": "A Java tic-tac-toe game with a graphical interface, for two players."
+  },
+  "Dictionary-Java": {
+    "title": "Search engine",
+    "tagline": "Index documents and answer queries",
+    "about": "A small search engine: indexing a corpus, hash-based dictionaries, synonyms and word stemming, then ranking the most relevant documents for a query."
+  },
+  "Client-Serveur-application": {
+    "title": "Book client / server",
+    "tagline": "Querying a library over the network",
+    "about": "A client and a server talking over TCP/IP: the client asks for a book by its reference, the server returns title, author, genre and length, and the connection stays open for the whole request."
+  },
+  "Health-Traveler": {
+    "tagline": "A nursing practice modelled in XML",
+    "about": "A web application for a nursing practice: patients, visits and invoices are described in XML, validated by schemas and turned into HTML pages with XSLT."
+  },
+  "Todolist-Angular": {
+    "title": "Todo list",
+    "tagline": "A task list in Angular",
+    "about": "A task list with add, edit, delete and filters, built as a MIAGE bachelor's lab."
+  },
+  "Docker-Generator": {
+    "tagline": "A GitHub Action that builds a podcast feed",
+    "about": "A GitHub Action running in a Docker container: it reads a YAML file describing the episodes and generates the podcast's RSS feed, then published on GitHub Pages."
+  },
+  "Podcast-Generator": {
+    "tagline": "A podcast published automatically",
+    "about": "The podcast “The Future in Tech” published with the Docker Generator action: every change to the YAML file regenerates the RSS feed."
+  },
+  "ecoconception-realworld-miage": {
+    "title": "Eco-design (backwards)",
+    "tagline": "Making an app as wasteful as possible, to learn",
+    "about": "MIAGE master's lab in pairs: take an Angular application and do the exact opposite of every eco-design best practice, with Lighthouse measurements to prove it."
+  },
+  "measuring-energy-alumet": {
+    "title": "Measuring energy",
+    "tagline": "How much power does a program use?",
+    "about": "Master's lab sessions on measuring the energy consumption of computing workloads with the ALUMET tool, and analysing the results."
+  },
+  "Code-stats": {
+    "tagline": "Count lines of code, fast",
+    "about": "A copy of Tokei, a command-line tool that counts lines of code, comments and blank lines in a project, per language."
+  }
+}

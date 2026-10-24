@@ -19,6 +19,7 @@ const CATEGORY_BY_LANGUAGE = {
 };
 
 const curated = JSON.parse(readFileSync("data/projects.json", "utf8"));
+const english = JSON.parse(readFileSync("data/en.json", "utf8"));
 
 async function get(path) {
   const headers = { Accept: "application/vnd.github+json", "User-Agent": USER };
@@ -49,6 +50,7 @@ const visible = repos
 const projects = await Promise.all(
   visible.map(async (r) => {
     const info = curated[r.name] || {};
+    const en = english[r.name] || {};
     let languages = {};
     try {
       languages = await get(`/repos/${USER}/${r.name}/languages`);
@@ -63,6 +65,13 @@ const projects = await Promise.all(
       tech: info.tech || (r.language ? [r.language] : []),
       category: info.category || CATEGORY_BY_LANGUAGE[r.language] || "web",
       featured: Boolean(info.featured),
+      shot: info.shot || null,
+      // English texts fall back to the French (or GitHub) ones when missing
+      en: {
+        title: en.title || info.title || prettify(r.name),
+        tagline: en.tagline || r.description || info.tagline || null,
+        about: en.about || r.description || info.about || null,
+      },
       url: r.html_url,
       site: info.site || r.homepage || null,
       language: r.language,
@@ -77,6 +86,8 @@ const projects = await Promise.all(
 
 const missing = projects.filter((p) => !curated[p.name]).map((p) => p.name);
 if (missing.length) console.warn(`no description yet: ${missing.join(", ")}`);
+const untranslated = projects.filter((p) => curated[p.name] && !english[p.name]).map((p) => p.name);
+if (untranslated.length) console.warn(`no English text yet: ${untranslated.join(", ")}`);
 
 const data = {
   name: user.name || USER,
